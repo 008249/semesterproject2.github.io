@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Page Title</title>
-      <style>
-         body {
-         background-color: colorname;
-         }
-         h1 {
-         color: color;
-         text-align: left,center,right;
-         }
-         p {
-         font-famil:  yourfont;
-         }
-      </style>
-   </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-Day Website - Impact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>D-Day Website</h1>
+        <nav>
+            <a href="index.html">Introduction</a>
+            <a href="history.html">History</a>
+            <a href="impact.html">Impact</a>
+        </nav>
+    </header>
+    
+    <section id="impact">
+        <h2>Impact</h2>
+        <p>The success of the D-Day landings paved the way for the Allied forces to advance into France and eventually defeat Nazi Germany. It was a decisive victory that led to the end of the war in Europe.</p>
+    </section>
 
-   <body>
-
-     <h1>This is a Heading</h1>
-     <p>This is a paragraph.</p>
-
-   </body>
+    <footer>
+        <p>&copy; 2024 D-Day Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
