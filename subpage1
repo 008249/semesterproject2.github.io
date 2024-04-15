@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Page Title</title>
-      <style>
-         body {
-         background-color: colorname;
-         }
-         h1 {
-         color: color;
-         text-align: left,center,right;
-         }
-         p {
-         font-famil:  yourfont;
-         }
-      </style>
-   </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-Day Website - History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>D-Day Website</h1>
+        <nav>
+            <a href="index.html">Introduction</a>
+            <a href="history.html">History</a>
+            <a href="impact.html">Impact</a>
+        </nav>
+    </header>
+    
+    <section id="history">
+        <h2>History</h2>
+        <p>On June 6, 1944, Allied forces landed on the beaches of Normandy, France, in the largest amphibious invasion in history. This operation involved thousands of troops, ships, and aircraft, and was a crucial step in the liberation of Western Europe from Nazi occupation.</p>
+    </section>
 
-   <body>
-
-     <h1>This is a Heading</h1>
-     <p>This is a paragraph.</p>
-
-   </body>
+    <footer>
+        <p>&copy; 2024 D-Day Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
